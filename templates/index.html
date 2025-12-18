@@ -1,0 +1,14 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+<div class="p-5 mb-4 bg-white rounded-3 shadow-sm text-center">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Welcome to Vibe App</h1>
+        <p class="col-md-8 fs-4 mx-auto">
+            This is a mock application generated to test Autonomous AI Agents.
+            It features fully functional routing and session management.
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('signup') }}" role="button">Get Started</a>
+    </div>
+</div>
+{% endblock %}
